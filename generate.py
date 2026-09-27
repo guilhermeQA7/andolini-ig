@@ -87,7 +87,16 @@ def balance_short_lines(draw, lines, font, max_width):
     return balanced
 
 
-def fit_lines(draw, text, font_name, max_size, min_size, max_width, max_height=None, variation="Regular", line_spacing=1.2):
+def has_short_lines(draw, lines, font, max_width):
+    for line in lines[:-1]:
+        stripped = line.strip()
+        if stripped and not stripped.startswith("✓"):
+            if len(stripped.split()) <= 1 or text_size(draw, stripped, font)[0] < max_width * 0.28:
+                return True
+    return False
+
+
+def fit_lines(draw, text, font_name, max_size, min_size, max_width, max_height=None, variation="Regular", line_spacing=1.2, avoid_short_lines=True):
     for size in range(max_size, min_size - 1, -2):
         font = font_name(size, variation)
         avg = max(8, int(max_width / max(size * 0.43, 1)))
@@ -109,7 +118,10 @@ def fit_lines(draw, text, font_name, max_size, min_size, max_width, max_height=N
         raw_lines = balance_short_lines(draw, raw_lines, font, max_width)
         line_h = int(size * line_spacing)
         total_h = line_h * len(raw_lines)
-        if (max_height is None or total_h <= max_height) and all(text_size(draw, line, font)[0] <= max_width for line in raw_lines):
+        lines_fit = all(text_size(draw, line, font)[0] <= max_width for line in raw_lines)
+        if avoid_short_lines and has_short_lines(draw, raw_lines, font, max_width):
+            continue
+        if (max_height is None or total_h <= max_height) and lines_fit:
             return font, raw_lines, line_h, total_h
     font = font_name(min_size, variation)
     return font, textwrap.wrap(str(text), width=24), int(min_size * line_spacing), int(min_size * line_spacing)
