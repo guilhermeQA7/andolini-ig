@@ -1,0 +1,72 @@
+{
+  "brand": {
+    "handle": "@andolinilabs",
+    "site": "andolinilabs.com.br"
+  },
+  "stories": [
+    {
+      "id": 1,
+      "day": "saturday",
+      "type": "dor",
+      "title": "Qual parte da sua operação mais te prende hoje?",
+      "body": "Pedido, estoque, WhatsApp, planilha ou cliente cobrando atualização?",
+      "prompt": "Me conta na caixinha: o que mais te prende?"
+    },
+    {
+      "id": 2,
+      "day": "sunday",
+      "type": "diagnostico",
+      "title": "Se a semana começa apagando incêndio, talvez não seja falta de gente.",
+      "body": "Pode ser processo solto, ferramenta desconectada ou atendimento manual demais.",
+      "prompt": "Me conta na caixinha: o que mais trava sua operação?"
+    },
+    {
+      "id": 3,
+      "day": "saturday",
+      "type": "ecommerce",
+      "title": "Cliente compra, mas o produto não acompanha?",
+      "body": "Quando estoque, pedido e atendimento não conversam, a venda vira problema.",
+      "prompt": "Me conta na caixinha: isso acontece aí?"
+    },
+    {
+      "id": 4,
+      "day": "sunday",
+      "type": "rotina",
+      "title": "Domingo é um bom dia para olhar a operação sem o barulho da semana.",
+      "body": "O que você ainda faz na mão e já deveria rodar com processo?",
+      "prompt": "Me conta na caixinha: qual tarefa você repetiu demais?"
+    },
+    {
+      "id": 5,
+      "day": "saturday",
+      "type": "whatsapp",
+      "title": "Quantas mensagens do WhatsApp poderiam virar um fluxo?",
+      "body": "Pergunta repetida é sinal. Não é só atendimento, é processo pedindo organização.",
+      "prompt": "Me conta na caixinha: qual pergunta mais se repete?"
+    },
+    {
+      "id": 6,
+      "day": "sunday",
+      "type": "planejamento",
+      "title": "Antes de automatizar, dá para fazer uma pergunta simples.",
+      "body": "Onde a informação entra, onde ela se perde e quem precisa dela para decidir?",
+      "prompt": "Me conta na caixinha: onde seu processo trava?"
+    },
+    {
+      "id": 7,
+      "day": "saturday",
+      "type": "crm",
+      "title": "Lead sem próximo passo vira oportunidade esquecida.",
+      "body": "Se tudo depende da memória da equipe, uma hora a venda escapa.",
+      "prompt": "Me conta na caixinha: você acompanha seus leads onde?"
+    },
+    {
+      "id": 8,
+      "day": "sunday",
+      "type": "bastidor",
+      "title": "Na Andolini, diagnóstico vem antes de ferramenta.",
+      "body": "A gente entende a rotina primeiro. Depois decide se é site, automação ou sistema.",
+      "prompt": "Me conta na caixinha: quer que eu olhe seu processo?"
+    }
+  ]
+}

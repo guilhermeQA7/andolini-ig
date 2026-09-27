@@ -1,14 +1,18 @@
 # andolini-ig
 
-Sistema de carrosseis automaticos para Instagram da Andolini Labs.
+Sistema de carrosséis automáticos e Stories de fim de semana para Instagram da Andolini Labs.
 
 ## Estrutura
 
 - `content/posts.json`: banco com 30 posts.
 - `generate.py`: gera os JPEGs em `output/post_XX/slide_XX.jpg`.
-- `publish.py`: publica o proximo post pendente via Composio.
-- `state/published.json`: controle do que ja foi publicado.
-- `.github/workflows/publish.yml`: agenda de segunda a sabado, 11:47 de Brasilia.
+- `publish.py`: publica o próximo post pendente via Composio.
+- `generate_stories.py`: gera Stories em `output/stories/story_XX.jpg`.
+- `publish_story.py`: publica o próximo Story pendente via Composio.
+- `state/published.json`: controle do que já foi publicado.
+- `state/stories_published.json`: controle dos Stories já publicados.
+- `.github/workflows/publish.yml`: agenda de segunda a sexta, 08:12 de Brasilia.
+- `.github/workflows/publish_story.yml`: agenda de sábado 10:30 e domingo 18:30 de Brasília.
 
 ## Setup local
 
@@ -30,7 +34,7 @@ IMAGE_BASE_URL=https://raw.githubusercontent.com/guilhermeQA7/andolini-ig/main/o
 PUBLISH_START_DATE=
 ```
 
-`PUBLISH_START_DATE` e opcional. Use `YYYY-MM-DD` para impedir publicacoes antes de uma data, por exemplo `2026-10-01`.
+`PUBLISH_START_DATE` é opcional. Use `YYYY-MM-DD` para impedir publicações antes de uma data, por exemplo `2026-10-01`.
 
 5. Gere as imagens:
 
@@ -38,7 +42,13 @@ PUBLISH_START_DATE=
 python generate.py
 ```
 
-Para gerar posts especificos:
+Gere os Stories:
+
+```bash
+python generate_stories.py
+```
+
+Para gerar posts específicos:
 
 ```bash
 python generate.py 3 7
@@ -58,10 +68,16 @@ Inspecione os schemas das ferramentas:
 python publish.py --inspect
 ```
 
-Veja o proximo post sem publicar:
+Veja o próximo post sem publicar:
 
 ```bash
 python publish.py --dry-run
+```
+
+Veja o próximo Story sem publicar:
+
+```bash
+python publish_story.py --dry-run
 ```
 
 Se quiser testar uma data de inicio localmente:
@@ -93,16 +109,18 @@ python publish.py --id 3 --dry-run
 5. Rode o workflow manualmente em `Actions > Publish Instagram Carousel`.
 6. Para testar um post especifico, use o input `post_id`.
 
-Depois de publicar, o workflow atualiza `state/published.json` e faz commit automatico.
+Para Stories, rode `Actions > Publish Instagram Story`. O Story automático sobe a imagem; a caixinha de perguntas interativa deve ser adicionada manualmente no Instagram.
+
+Depois de publicar, o workflow atualiza `state/published.json` e faz commit automático.
 
 ## Rotina de crescimento
 
 Reserve 20 minutos por dia:
 
-- Responder os CTAs por DM com material util e convite leve para diagnostico.
-- Comentar em perfis locais de Bangu/RJ e negocios complementares.
-- Postar stories com bastidor, prova social, enquete ou pergunta rapida.
+- Responder os CTAs por DM com diagnóstico leve do processo e convite para uma call quando fizer sentido.
+- Comentar em perfis locais de Bangu/RJ e negócios complementares.
+- Adicionar manualmente a caixinha de perguntas nos Stories de sábado e domingo.
 
 Toda semana, transforme o carrossel mais salvo em 1 Reels curto.
 
-Todo mes, revise salvamentos e compartilhamentos para decidir quais temas repetir, aprofundar ou transformar em oferta.
+Todo mês, revise salvamentos e compartilhamentos para decidir quais temas repetir, aprofundar ou transformar em oferta.

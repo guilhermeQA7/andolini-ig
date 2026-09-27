@@ -1,12 +1,13 @@
-name: Publish Instagram Carousel
+name: Publish Instagram Story
 
 on:
   schedule:
-    - cron: "12 11 * * 1-5"
+    - cron: "30 13 * * 6"
+    - cron: "30 21 * * 0"
   workflow_dispatch:
     inputs:
-      post_id:
-        description: "ID opcional do post"
+      story_id:
+        description: "ID opcional do story"
         required: false
         type: string
 
@@ -14,7 +15,7 @@ permissions:
   contents: write
 
 jobs:
-  publish:
+  publish-story:
     runs-on: ubuntu-latest
     env:
       COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
@@ -34,18 +35,18 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Publish next pending post
+      - name: Publish next pending story
         run: |
-          if [ -n "${{ inputs.post_id }}" ]; then
-            python publish.py --id "${{ inputs.post_id }}"
+          if [ -n "${{ inputs.story_id }}" ]; then
+            python publish_story.py --id "${{ inputs.story_id }}"
           else
-            python publish.py
+            python publish_story.py
           fi
 
       - name: Commit state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/published.json
-          git diff --cached --quiet || git commit -m "chore: update published state"
+          git add state/stories_published.json
+          git diff --cached --quiet || git commit -m "chore: update stories state"
           git push
