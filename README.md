@@ -26,7 +26,7 @@ pip install -r requirements.txt
 COMPOSIO_API_KEY=
 COMPOSIO_USER_ID=
 IG_USER_ID=
-IMAGE_BASE_URL=
+IMAGE_BASE_URL=https://raw.githubusercontent.com/guilhermeQA7/andolini-ig/main/output
 PUBLISH_START_DATE=
 ```
 
