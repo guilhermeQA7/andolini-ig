@@ -214,6 +214,9 @@ def save_jpg(img, path):
 
 def generate_post(post, brand):
     post_dir = OUTPUT_DIR / f"post_{post['id']:02d}"
+    if post_dir.exists():
+        for old_slide in post_dir.glob("slide_*.jpg"):
+            old_slide.unlink()
     total = len(post["slides"]) + 2
     images = [draw_cover(post, brand)]
     for i, slide in enumerate(post["slides"], start=1):

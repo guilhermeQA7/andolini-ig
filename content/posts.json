@@ -65,7 +65,7 @@
         }
       ],
       "caption": "Automação boa começa no diagnóstico. Primeiro a gente entende onde seu tempo está vazando, depois desenha o fluxo certo.",
-      "cta": "Comenta TEMPO que eu te mando um diagnóstico rápido da rotina"
+      "cta": "Comenta TEMPO que eu te chamo na DM para olhar sua rotina"
     },
     {
       "id": 2,
@@ -89,7 +89,7 @@
         }
       ],
       "caption": "A Andolini cria sites rápidos, prontos para celular e desenhados para gerar contato. Beleza entra a serviço da venda.",
-      "cta": "Comenta SITE que eu te mando 3 ajustes para gerar mais contato"
+      "cta": "Comenta SITE que eu te chamo na DM para analisar sua página"
     },
     {
       "id": 3,
@@ -113,7 +113,7 @@
         }
       ],
       "caption": "Automação não precisa ser gigante. Muitas vezes o primeiro ganho vem de conectar as ferramentas que você já usa.",
-      "cta": "Comenta ZAP que eu te mando um fluxo para parar de responder tudo no manual"
+      "cta": "Comenta ZAP que eu te chamo na DM para entender seu atendimento"
     },
     {
       "id": 4,
@@ -137,7 +137,7 @@
         }
       ],
       "caption": "Para negócio local, presença digital não e luxo. E a vitrine que trabalha antes do primeiro contato.",
-      "cta": "Comenta MAPS que eu te mando um checklist para aparecer melhor no bairro"
+      "cta": "Comenta MAPS que eu te chamo na DM para ver sua presença local"
     },
     {
       "id": 5,
@@ -161,7 +161,7 @@
         }
       ],
       "caption": "Nosso processo parte do jeito que o negócio trabalha hoje. Sem solução genérica empurrada para caber em qualquer empresa.",
-      "cta": "Comenta BRIEFING que eu te mando o roteiro para mapear seu processo"
+      "cta": "Comenta BRIEFING que eu te chamo na DM para mapear seu processo"
     },
     {
       "id": 6,
@@ -189,7 +189,7 @@
         }
       ],
       "caption": "Automação boa tira peso da rotina sem transformar o negócio em um projeto infinito de TI.",
-      "cta": "Comenta ROTINA que eu te mando 3 pontos para diagnosticar"
+      "cta": "Comenta ROTINA que eu te chamo na DM para achar o gargalo"
     },
     {
       "id": 7,
@@ -213,7 +213,7 @@
         }
       ],
       "caption": "No site da Andolini, o CTA guia para diagnóstico, calculadora ou conversa. O cliente precisa saber o que ganha ao clicar.",
-      "cta": "Comenta BOTAO que eu te mando 10 CTAs para WhatsApp e orçamento"
+      "cta": "Comenta BOTAO que eu te chamo na DM para ajustar seu próximo passo"
     },
     {
       "id": 8,
@@ -237,7 +237,7 @@
         }
       ],
       "caption": "Automatizar não e sobre robô. E sobre tirar da sua mesa o que não precisava depender de você.",
-      "cta": "Comenta IA que eu te mando uma automação simples para ganhar tempo"
+      "cta": "Comenta IA que eu te chamo na DM para ver onde automatizar"
     },
     {
       "id": 9,
@@ -261,7 +261,7 @@
         }
       ],
       "caption": "Para pequenos negócios, confiança vem muito do concreto. Foto real ajuda mais do que visual generico.",
-      "cta": "Comenta FOTO que eu te mando uma lista de fotos para gerar confiança"
+      "cta": "Comenta FOTO que eu te chamo na DM para analisar sua confiança online"
     },
     {
       "id": 10,
@@ -285,7 +285,7 @@
         }
       ],
       "caption": "Site bom não e mural. E caminho: entender, confiar e chamar.",
-      "cta": "Comenta HOME que eu te mando o mapa de uma página que gera lead"
+      "cta": "Comenta HOME que eu te chamo na DM para revisar sua página inicial"
     },
     {
       "id": 11,
@@ -309,7 +309,7 @@
         }
       ],
       "caption": "A Andolini desenha o fluxo antes de construir. Isso evita sistema bonito em cima de bagunça.",
-      "cta": "Comenta PROCESSO que eu te mando uma forma simples de mapear"
+      "cta": "Comenta PROCESSO que eu te chamo na DM para entender sua operação"
     },
     {
       "id": 12,
@@ -333,7 +333,7 @@
         }
       ],
       "caption": "A melhor prova para automação e mostrar o trabalho repetitivo saindo da frente.",
-      "cta": "Comenta PROVA que eu te mando 7 provas para aumentar confiança"
+      "cta": "Comenta PROVA que eu te chamo na DM para ver o que seu site precisa provar"
     },
     {
       "id": 13,
@@ -357,7 +357,7 @@
         }
       ],
       "caption": "Automação no atendimento não substitui relacionamento. Ela protege oportunidade.",
-      "cta": "Comenta LEAD que eu te mando uma triagem para chegar no atendimento com contexto"
+      "cta": "Comenta LEAD que eu te chamo na DM para olhar seu funil"
     },
     {
       "id": 14,
@@ -381,7 +381,7 @@
         }
       ],
       "caption": "Para negócio local, site e Google Maps precisam trabalhar juntos para gerar contato.",
-      "cta": "Comenta LOCAL que eu te mando o checklist de presença local"
+      "cta": "Comenta LOCAL que eu te chamo na DM para revisar site e Maps"
     },
     {
       "id": 15,
@@ -405,7 +405,7 @@
         }
       ],
       "caption": "Projeto sob medida fica melhor quando a rotina está clara antes da primeira tela nascer.",
-      "cta": "Comenta MATERIAL que eu te mando a lista para tirar seu projeto do papel"
+      "cta": "Comenta MATERIAL que eu te chamo na DM para entender seu projeto"
     },
     {
       "id": 16,
@@ -429,7 +429,7 @@
         }
       ],
       "caption": "Web design também e operação. Se o site trava no celular, ele atrapalha o contato.",
-      "cta": "Comenta LENTO que eu te mando os pontos que travam o site no celular"
+      "cta": "Comenta LENTO que eu te chamo na DM para olhar seu site no celular"
     },
     {
       "id": 17,
@@ -453,7 +453,7 @@
         }
       ],
       "caption": "Quando você vende tecnologia para pequeno negócio, precisa traduzir projeto em ganho prático.",
-      "cta": "Comenta PRECO que eu te mando um modelo para explicar sua proposta"
+      "cta": "Comenta PRECO que eu te chamo na DM para revisar sua proposta"
     },
     {
       "id": 18,
@@ -477,7 +477,7 @@
         }
       ],
       "caption": "Para e-commerce pequeno, fluxo organizado reduz erro e melhora atendimento sem aumentar equipe.",
-      "cta": "Comenta PEDIDO que eu te mando um fluxo para organizar pedidos"
+      "cta": "Comenta PEDIDO que eu te chamo na DM para entender seus pedidos"
     },
     {
       "id": 19,
@@ -501,7 +501,7 @@
         }
       ],
       "caption": "Presença local forte combina Maps cuidado, site claro e atendimento fácil.",
-      "cta": "Comenta AVALIACAO que eu te mando respostas para ganhar confiança no Maps"
+      "cta": "Comenta AVALIACAO que eu te chamo na DM para revisar sua vitrine local"
     },
     {
       "id": 20,
@@ -525,7 +525,7 @@
         }
       ],
       "caption": "A Andolini trata visual como parte da função: clareza, velocidade e contato.",
-      "cta": "Comenta EFEITO que eu te mando um filtro para seu site ficar mais claro"
+      "cta": "Comenta EFEITO que eu te chamo na DM para ver se seu site está claro"
     },
     {
       "id": 21,
@@ -549,7 +549,7 @@
         }
       ],
       "caption": "Site que vende precisa funcionar onde o cliente decide: muitas vezes, no celular e com pressa.",
-      "cta": "Comenta MOBILE que eu te mando um teste de 5 minutos no celular"
+      "cta": "Comenta MOBILE que eu te chamo na DM para testar sua experiência"
     },
     {
       "id": 22,
@@ -573,7 +573,7 @@
         }
       ],
       "caption": "Gerar lead também e remover atrito. Quanto mais fácil chamar, mais chance de conversa boa começar.",
-      "cta": "Comenta FORM que eu te mando um formulário que reduz atrito"
+      "cta": "Comenta FORM que eu te chamo na DM para reduzir atrito no contato"
     },
     {
       "id": 23,
@@ -597,7 +597,7 @@
         }
       ],
       "caption": "A Andolini cria sistemas em volta do processo real. Mas antes, o caminho precisa estár claro.",
-      "cta": "Comenta CRM que eu te mando um funil para não perder lead"
+      "cta": "Comenta CRM que eu te chamo na DM para organizar seus leads"
     },
     {
       "id": 24,
@@ -621,7 +621,7 @@
         }
       ],
       "caption": "SEO local precisa servir ao cliente antes de servir ao algoritmo.",
-      "cta": "Comenta BAIRRO que eu te mando um modelo de página para sua região"
+      "cta": "Comenta BAIRRO que eu te chamo na DM para revisar sua busca local"
     },
     {
       "id": 25,
@@ -645,7 +645,7 @@
         }
       ],
       "caption": "Site, automação e atendimento precisam conversar. O que aparece todo dia no WhatsApp merece virar parte da experiência.",
-      "cta": "Comenta PERGUNTAS que eu te mando um roteiro para transformar dúvidas em página"
+      "cta": "Comenta PERGUNTAS que eu te chamo na DM para transformar dúvidas em venda"
     },
     {
       "id": 26,
@@ -669,7 +669,7 @@
         }
       ],
       "caption": "Uma home boa não joga informação na tela. Ela guia o cliente para chamar com segurança.",
-      "cta": "Comenta CHECK que eu te mando o checklist de uma home que gera contato"
+      "cta": "Comenta CHECK que eu te chamo na DM para revisar sua home"
     },
     {
       "id": 27,
@@ -693,7 +693,7 @@
         }
       ],
       "caption": "Tecnologia assusta menos quando o cliente entende o que vai mudar na rotina dele.",
-      "cta": "Comenta OFERTA que eu te mando um modelo para vender sem enrolar"
+      "cta": "Comenta OFERTA que eu te chamo na DM para entender sua venda"
     },
     {
       "id": 28,
@@ -717,7 +717,7 @@
         }
       ],
       "caption": "Automatizar retorno ajuda a proteger oportunidades sem perder o tom humano.",
-      "cta": "Comenta RETORNO que eu te mando 3 follow-ups para reabrir conversa"
+      "cta": "Comenta RETORNO que eu te chamo na DM para ver seus follow-ups"
     },
     {
       "id": 29,
@@ -741,7 +741,7 @@
         }
       ],
       "caption": "Presença digital forte e um conjunto: site claro, Maps cuidado e WhatsApp pronto para receber.",
-      "cta": "Comenta CONSISTENCIA que eu te mando uma rotina para site e Maps"
+      "cta": "Comenta CONSISTENCIA que eu te chamo na DM para revisar seus canais"
     },
     {
       "id": 30,
@@ -765,7 +765,7 @@
         }
       ],
       "caption": "A Andolini nasceu para tirar o medo da palavra tecnologia. Você explica a rotina, a gente traduz em fluxo, site ou sistema.",
-      "cta": "Comenta ANDOLINI que eu te mando o caminho do diagnóstico até rodar"
+      "cta": "Comenta ANDOLINI que eu te chamo na DM para ver se faz sentido diagnosticar"
     }
   ]
 }
