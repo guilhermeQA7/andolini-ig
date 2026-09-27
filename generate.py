@@ -124,7 +124,7 @@ def header(draw, brand):
 
 
 def footer(draw, idx, total, last=False):
-    y = H - 104
+    y = H - 112
     gap = 10
     total_w = 520
     seg_w = (total_w - gap * (total - 1)) / total
@@ -142,10 +142,10 @@ def draw_cover(post, brand):
     header(d, brand)
     d.line((MARGIN_X, 360, MARGIN_X + 130, 360), fill=GOLD, width=5)
     max_w = W - MARGIN_X * 2
-    title_font, title_lines, title_h, title_total = fit_lines(d, post["cover"]["title"], font_cormorant, 150, 80, max_w, 500, "Bold", 0.95)
+    title_font, title_lines, title_h, title_total = fit_lines(d, post["cover"]["title"], font_cormorant, 142, 74, max_w, 480, "Bold", 0.95)
     sub_font, sub_lines, sub_h, sub_total = fit_lines(d, post["cover"]["sub"], font_inter, 42, 30, max_w, 140, "Medium", 1.25)
     total = title_total + 28 + sub_total
-    y = int((H - total) / 2) - 10
+    y = max(390, int((H - total) / 2) - 10)
     draw_multiline(d, title_lines, (MARGIN_X, y), title_font, TEXT, title_h, features=["lnum"])
     draw_multiline(d, sub_lines, (MARGIN_X, y + title_total + 28), sub_font, GOLD, sub_h)
     return img
@@ -168,21 +168,24 @@ def draw_content(post, slide, brand, idx, total):
         tag, title = ("ANTES", RED), title[1:].strip()
     elif title.startswith("✅"):
         tag, title = ("DEPOIS", GREEN), title[1:].strip()
-    draw_text(d, (MARGIN_X, 250), f"{idx:02d}", font=font_cormorant(150, "Light"), fill=GOLD, features=["lnum"])
+    draw_text(d, (MARGIN_X, 236), f"{idx:02d}", font=font_cormorant(132, "Light"), fill=GOLD, features=["lnum"])
     if tag:
         label, color = tag
         tag_font = font_inter(24, "Bold")
         tw, th = text_size(d, label, tag_font)
-        d.rounded_rectangle((MARGIN_X, 395, MARGIN_X + tw + 34, 435), radius=20, fill=color)
-        d.text((MARGIN_X + 17, 402), label, font=tag_font, fill=TEXT)
-        title_y = 462
+        d.rounded_rectangle((MARGIN_X, 374, MARGIN_X + tw + 34, 414), radius=20, fill=color)
+        d.text((MARGIN_X + 17, 381), label, font=tag_font, fill=TEXT)
+        title_y = 440
     else:
-        title_y = 430
+        title_y = 408
     max_w = W - MARGIN_X * 2
-    title_font, title_lines, title_h, title_total = fit_lines(d, title, font_cormorant, 96, 58, max_w, 260, "Bold", 1.0)
-    body_font, body_lines, body_h, body_total = fit_lines(d, "\n".join(normalized_body(slide["b"])), font_inter, 54, 34, max_w, 420, "Regular", 1.42)
+    title_font, title_lines, title_h, title_total = fit_lines(d, title, font_cormorant, 88, 52, max_w, 235, "Bold", 0.98)
+    body_font, body_lines, body_h, body_total = fit_lines(d, "\n".join(normalized_body(slide["b"])), font_inter, 48, 31, max_w, 360, "Regular", 1.36)
     block_h = title_total + 36 + body_total
-    y = max(title_y, int((H - block_h) / 2) + 70)
+    safe_bottom = H - 210
+    y = max(title_y, int((H - block_h) / 2) + 38)
+    if y + block_h > safe_bottom:
+        y = max(title_y, safe_bottom - block_h)
     draw_multiline(d, title_lines, (MARGIN_X, y), title_font, TEXT, title_h, features=["lnum"])
     draw_multiline(d, body_lines, (MARGIN_X, y + title_total + 36), body_font, BODY, body_h)
     footer(d, idx, total)
@@ -193,16 +196,16 @@ def draw_cta(post, brand, total):
     img = base_canvas(post["id"] + total + 9)
     d = ImageDraw.Draw(img)
     header(d, brand)
-    draw_text(d, (MARGIN_X, 320), "E agora?", font=font_cormorant(108, "Bold"), fill=TEXT, features=["lnum"])
+    draw_text(d, (MARGIN_X, 300), "E agora?", font=font_cormorant(100, "Bold"), fill=TEXT, features=["lnum"])
     cta = post["cta"].replace("Comenta ", "Comenta\n", 1)
-    cta_font, cta_lines, cta_h, cta_total = fit_lines(d, cta, font_cormorant, 92, 56, W - MARGIN_X * 2, 330, "Bold", 1.0)
-    draw_multiline(d, cta_lines, (MARGIN_X, 470), cta_font, GOLD, cta_h, features=["lnum"])
-    bullets = [f"Salva pra revisar depois", "Manda pra quem tem negocio", f"Segue {brand['handle']}"]
-    y = 840
+    cta_font, cta_lines, cta_h, cta_total = fit_lines(d, cta, font_cormorant, 82, 50, W - MARGIN_X * 2, 300, "Bold", 1.0)
+    draw_multiline(d, cta_lines, (MARGIN_X, 440), cta_font, GOLD, cta_h, features=["lnum"])
+    bullets = [f"Salva pra revisar depois", "Manda pra quem tem negócio", f"Segue {brand['handle']}"]
+    y = 800
     for bullet in bullets:
         d.text((MARGIN_X, y), f"✓ {bullet}", font=font_inter(38, "Medium"), fill=BODY)
         y += 68
-    d.text((MARGIN_X, H - 174), brand["site"], font=font_inter(28, "Regular"), fill=GRAY)
+    d.text((MARGIN_X, H - 188), brand["site"], font=font_inter(28, "Regular"), fill=GRAY)
     footer(d, total - 1, total, last=True)
     return img
 

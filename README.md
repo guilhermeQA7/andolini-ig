@@ -1,18 +1,14 @@
 # andolini-ig
 
-Sistema de carrosséis automáticos e Stories de fim de semana para Instagram da Andolini Labs.
+Sistema de carrosséis automáticos para Instagram da Andolini Labs.
 
 ## Estrutura
 
 - `content/posts.json`: banco com 30 posts.
 - `generate.py`: gera os JPEGs em `output/post_XX/slide_XX.jpg`.
 - `publish.py`: publica o próximo post pendente via Composio.
-- `generate_stories.py`: gera Stories em `output/stories/story_XX.jpg`.
-- `publish_story.py`: publica o próximo Story pendente via Composio.
 - `state/published.json`: controle do que já foi publicado.
-- `state/stories_published.json`: controle dos Stories já publicados.
 - `.github/workflows/publish.yml`: agenda de segunda a sexta, 08:12 de Brasilia.
-- `.github/workflows/publish_story.yml`: agenda de sábado 10:30 e domingo 18:30 de Brasília.
 
 ## Setup local
 
@@ -42,12 +38,6 @@ PUBLISH_START_DATE=
 python generate.py
 ```
 
-Gere os Stories:
-
-```bash
-python generate_stories.py
-```
-
 Para gerar posts específicos:
 
 ```bash
@@ -72,12 +62,6 @@ Veja o próximo post sem publicar:
 
 ```bash
 python publish.py --dry-run
-```
-
-Veja o próximo Story sem publicar:
-
-```bash
-python publish_story.py --dry-run
 ```
 
 Se quiser testar uma data de inicio localmente:
@@ -109,8 +93,6 @@ python publish.py --id 3 --dry-run
 5. Rode o workflow manualmente em `Actions > Publish Instagram Carousel`.
 6. Para testar um post especifico, use o input `post_id`.
 
-Para Stories, rode `Actions > Publish Instagram Story`. O Story automático sobe a imagem; a caixinha de perguntas interativa deve ser adicionada manualmente no Instagram.
-
 Depois de publicar, o workflow atualiza `state/published.json` e faz commit automático.
 
 ## Rotina de crescimento
@@ -119,7 +101,7 @@ Reserve 20 minutos por dia:
 
 - Responder os CTAs por DM com diagnóstico leve do processo e convite para uma call quando fizer sentido.
 - Comentar em perfis locais de Bangu/RJ e negócios complementares.
-- Adicionar manualmente a caixinha de perguntas nos Stories de sábado e domingo.
+- Fazer Stories manualmente nos fins de semana com caixinha de perguntas.
 
 Toda semana, transforme o carrossel mais salvo em 1 Reels curto.
 
