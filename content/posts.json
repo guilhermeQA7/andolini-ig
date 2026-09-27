@@ -42,7 +42,7 @@
     "local": [
       "#SEOLocal",
       "#GoogleMaps",
-      "#BanguRJ",
+      "#PresencaDigital",
       "#RioDeJaneiro",
       "#NegocioLocal"
     ]
@@ -125,7 +125,7 @@
       "pilar": "local",
       "cover": {
         "title": "Negócio local também precisa parecer vivo no digital",
-        "sub": "Bangu, Rio e Google Maps"
+        "sub": "Google, site e confiança"
       },
       "slides": [
         {
@@ -614,11 +614,11 @@
       "slides": [
         {
           "t": "Quando faz sentido",
-          "b": "Se você atende Bangu, Zona Oeste ou regiões específicas, a página pode explicar serviços, área e como chamar."
+          "b": "Se você atende uma cidade, região ou área específica, a página pode explicar serviços, cobertura e como chamar."
         },
         {
           "t": "O que colocar",
-          "b": "Fotos reais, serviços, perguntas comuns, formas de atendimento, prazo, referência local e prova de cliente da região."
+          "b": "Se você atende uma cidade, região ou área específica, a página pode explicar serviços, cobertura e como chamar."
         },
         {
           "t": "Cuidado",
