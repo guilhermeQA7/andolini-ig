@@ -58,6 +58,35 @@ def text_size(draw, text, font, **kwargs):
     return box[2] - box[0], box[3] - box[1]
 
 
+def balance_short_lines(draw, lines, font, max_width):
+    balanced = list(lines)
+    i = 0
+    while i < len(balanced) - 1:
+        current = balanced[i].strip()
+        next_line = balanced[i + 1].strip()
+        if not current or not next_line or current.startswith("✓") or next_line.startswith("✓"):
+            i += 1
+            continue
+        if len(current.split()) <= 2 or text_size(draw, current, font)[0] < max_width * 0.42:
+            words = next_line.split()
+            moved = False
+            while words:
+                candidate = f"{current} {words[0]}"
+                if text_size(draw, candidate, font)[0] > max_width:
+                    break
+                current = candidate
+                words.pop(0)
+                moved = True
+            if moved:
+                balanced[i] = current
+                balanced[i + 1] = " ".join(words)
+                if not balanced[i + 1]:
+                    balanced.pop(i + 1)
+                    continue
+        i += 1
+    return balanced
+
+
 def fit_lines(draw, text, font_name, max_size, min_size, max_width, max_height=None, variation="Regular", line_spacing=1.2):
     for size in range(max_size, min_size - 1, -2):
         font = font_name(size, variation)
@@ -77,6 +106,7 @@ def fit_lines(draw, text, font_name, max_size, min_size, max_width, max_height=N
                     next_lines.extend(textwrap.wrap(line, width=cut))
                     changed = True
             raw_lines = next_lines
+        raw_lines = balance_short_lines(draw, raw_lines, font, max_width)
         line_h = int(size * line_spacing)
         total_h = line_h * len(raw_lines)
         if (max_height is None or total_h <= max_height) and all(text_size(draw, line, font)[0] <= max_width for line in raw_lines):
