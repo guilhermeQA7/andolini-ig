@@ -1,0 +1,377 @@
+{
+  "brand": {
+    "handle": "@andolinilabs",
+    "site": "andolinilabs.com.br"
+  },
+  "hashtags": {
+    "base": ["#AndoliniLabs", "#Automacao", "#SistemasSobMedida", "#SitesProfissionais", "#PequenosNegocios"],
+    "diagnostico": ["#DiagnosticoDeProcesso", "#SiteQueVende", "#PresencaDigital", "#NegocioNoDigital"],
+    "conversao": ["#Conversao", "#LandingPage", "#VendasOnline", "#GeracaoDeLeads"],
+    "automacao": ["#AutomacaoComIA", "#WhatsAppBusiness", "#CRM", "#Produtividade"],
+    "bastidores": ["#BastidoresDaAgencia", "#AgenciaDigital", "#Processos", "#TecnologiaParaNegocios"],
+    "local": ["#SEOLocal", "#GoogleMaps", "#BanguRJ", "#RioDeJaneiro"]
+  },
+  "posts": [
+    {
+      "id": 1,
+      "pilar": "diagnostico",
+      "cover": {"title": "O trabalho manual esta cobrando aluguel no seu negocio", "sub": "Diagnostico rapido da rotina"},
+      "slides": [
+        {"t": "Onde o tempo escapa?", "b": "Copiar pedido, atualizar planilha, responder a mesma pergunta, procurar informacao solta. Isso parece pequeno, mas vira rotina pesada."},
+        {"t": "Nao comece pela ferramenta", "b": "Antes de escolher sistema, a gente mapeia o processo real. O que entra, quem mexe, onde trava e o que deveria rodar sozinho."},
+        {"t": "Primeiro alvo", "b": "Automatize a tarefa que acontece todo dia, tem regra clara e tira sua atencao do que gera dinheiro."}
+      ],
+      "caption": "Automacao boa comeca no diagnostico. Primeiro a gente entende onde seu tempo esta vazando, depois desenha o fluxo certo.",
+      "cta": "Comenta TEMPO que eu te mando um diagnostico rapido da rotina"
+    },
+    {
+      "id": 2,
+      "pilar": "conversao",
+      "cover": {"title": "Seu site precisa gerar conversa, nao so visita", "sub": "Web design com funcao"},
+      "slides": [
+        {"t": "❌ Site vitrine demais", "b": "Fala da empresa, mostra uns servicos e termina com um contato escondido. A pessoa sai sem entender o proximo passo."},
+        {"t": "✅ Site que puxa decisao", "b": "Mostra o problema, explica a solucao, prova que voce entrega e chama para WhatsApp, diagnostico ou orcamento."},
+        {"t": "Regra da Andolini", "b": "Bonito porque funciona. Se o visual nao ajuda o cliente a entender e chamar, e so enfeite."}
+      ],
+      "caption": "A Andolini cria sites rapidos, prontos para celular e desenhados para gerar contato. Beleza entra a servico da venda.",
+      "cta": "Comenta SITE que eu te mando 3 ajustes para gerar mais contato"
+    },
+    {
+      "id": 3,
+      "pilar": "automacao",
+      "cover": {"title": "WhatsApp, planilha e CRM sem voce no meio", "sub": "Automacao para parar o copia e cola"},
+      "slides": [
+        {"t": "O caos comum", "b": "Lead chega no WhatsApp, alguem copia para planilha, depois esquece de atualizar o CRM. O erro nao e falta de esforco, e processo manual demais."},
+        {"t": "O fluxo certo", "b": "Mensagem entra, dados sao salvos, etapa muda no CRM e a equipe recebe contexto para continuar a conversa."},
+        {"t": "Comece simples", "b": "✓ capturar lead\n✓ registrar origem\n✓ avisar responsavel\n✓ lembrar retorno\n✓ atualizar planilha"}
+      ],
+      "caption": "Automacao nao precisa ser gigante. Muitas vezes o primeiro ganho vem de conectar as ferramentas que voce ja usa.",
+      "cta": "Comenta ZAP que eu te mando um fluxo para parar de responder tudo no manual"
+    },
+    {
+      "id": 4,
+      "pilar": "local",
+      "cover": {"title": "Negocio local tambem precisa parecer vivo no digital", "sub": "Bangu, Rio e Google Maps"},
+      "slides": [
+        {"t": "A primeira impressao", "b": "Antes de chamar no WhatsApp, muita gente olha Google, fotos, site e avaliacoes. Se tudo parece abandonado, a confianca cai."},
+        {"t": "O basico que ajuda", "b": "✓ horario certo\n✓ fotos reais\n✓ servicos claros\n✓ link para contato\n✓ site carregando bem no celular"},
+        {"t": "Site e Maps juntos", "b": "O Maps mostra que voce existe. O site explica por que vale chamar voce e qual proximo passo tomar."}
+      ],
+      "caption": "Para negocio local, presenca digital nao e luxo. E a vitrine que trabalha antes do primeiro contato.",
+      "cta": "Comenta MAPS que eu te mando um checklist para aparecer melhor no bairro"
+    },
+    {
+      "id": 5,
+      "pilar": "bastidores",
+      "cover": {"title": "A gente nao vende sistema antes de entender a rotina", "sub": "Bastidores do diagnostico"},
+      "slides": [
+        {"t": "Pergunta 1", "b": "Qual tarefa voce repete toda semana e ja sabe quase de cor? Essa costuma ser uma boa candidata para automacao."},
+        {"t": "Pergunta 2", "b": "Onde a informacao se perde hoje: WhatsApp, planilha, papel, direct, sistema antigo ou memoria da equipe?"},
+        {"t": "Pergunta 3", "b": "Se essa tarefa rodasse sozinha, o que voce faria com o tempo de volta?"}
+      ],
+      "caption": "Nosso processo parte do jeito que o negocio trabalha hoje. Sem solucao generica empurrada para caber em qualquer empresa.",
+      "cta": "Comenta BRIEFING que eu te mando o roteiro para mapear seu processo"
+    },
+    {
+      "id": 6,
+      "pilar": "diagnostico",
+      "cover": {"title": "3 sinais de que sua operacao pede automacao", "sub": "Sem complicar a tecnologia"},
+      "slides": [
+        {"t": "Sinal 1", "b": "A mesma informacao e digitada em dois lugares. Pedido no WhatsApp, depois planilha, depois sistema."},
+        {"t": "Sinal 2", "b": "A venda depende de alguem lembrar de voltar no cliente. Se esquecer, o lead esfria e ninguem percebe."},
+        {"t": "Sinal 3", "b": "O relatorio so existe quando alguem para tudo para montar. Decisao boa nao deveria depender de planilha atrasada."},
+        {"t": "Primeiro passo", "b": "Mapeie entrada, decisao, responsavel e saida. Depois fica claro o que da para automatizar primeiro."}
+      ],
+      "caption": "Automacao boa tira peso da rotina sem transformar o negocio em um projeto infinito de TI.",
+      "cta": "Comenta ROTINA que eu te mando 3 pontos para diagnosticar"
+    },
+    {
+      "id": 7,
+      "pilar": "conversao",
+      "cover": {"title": "CTA bom diz exatamente o que acontece depois", "sub": "Menos clique aqui, mais direcao"},
+      "slides": [
+        {"t": "❌ Chamada fraca", "b": "Saiba mais. Entre em contato. Clique aqui. O cliente ate entende, mas nao sente o beneficio do proximo passo."},
+        {"t": "✅ Chamada com contexto", "b": "Pedir diagnostico gratis. Calcular minha economia. Chamar no WhatsApp com meu processo. Fica mais claro e menos frio."},
+        {"t": "Onde usar", "b": "Topo do site, final da pagina, bloco de servico, depois de prova e perto de qualquer simulador ou calculadora."}
+      ],
+      "caption": "No site da Andolini, o CTA guia para diagnostico, calculadora ou conversa. O cliente precisa saber o que ganha ao clicar.",
+      "cta": "Comenta BOTAO que eu te mando 10 CTAs para WhatsApp e orçamento"
+    },
+    {
+      "id": 8,
+      "pilar": "automacao",
+      "cover": {"title": "IA no pequeno negocio precisa pagar a conta em tempo", "sub": "Uso pratico, nao palestra futurista"},
+      "slides": [
+        {"t": "Comece pelo repetitivo", "b": "Resumir conversa, classificar pedido, responder duvida comum, montar relatorio, organizar lead. Isso ja devolve tempo."},
+        {"t": "Criterio humano continua", "b": "IA ajuda no fluxo. Decisao comercial, promessa ao cliente e excecao importante continuam com gente responsavel."},
+        {"t": "Bom primeiro caso", "b": "Uma triagem no WhatsApp que entende a necessidade, salva dados e entrega contexto para quem vai atender."}
+      ],
+      "caption": "Automatizar nao e sobre robo. E sobre tirar da sua mesa o que nao precisava depender de voce.",
+      "cta": "Comenta IA que eu te mando uma automacao simples para ganhar tempo"
+    },
+    {
+      "id": 9,
+      "pilar": "local",
+      "cover": {"title": "Fotos reais vendem mais confianca que arte bonita", "sub": "Presenca local com cara de verdade"},
+      "slides": [
+        {"t": "O cliente procura sinais", "b": "Fachada, equipe, produto, atendimento, entrega e bastidor mostram que o negocio existe e esta funcionando."},
+        {"t": "Use no Maps e no site", "b": "Foto real no Google ajuda a chamar atencao. No site, ela apoia a promessa e reduz a sensacao de empresa distante."},
+        {"t": "Roteiro simples", "b": "✓ fachada\n✓ equipe\n✓ produto\n✓ processo\n✓ cliente atendido\n✓ detalhe do servico"}
+      ],
+      "caption": "Para pequenos negocios, confianca vem muito do concreto. Foto real ajuda mais do que visual generico.",
+      "cta": "Comenta FOTO que eu te mando uma lista de fotos para gerar confianca"
+    },
+    {
+      "id": 10,
+      "pilar": "bastidores",
+      "cover": {"title": "Como a Andolini pensa uma pagina", "sub": "Do problema ao WhatsApp"},
+      "slides": [
+        {"t": "Primeiro: clareza", "b": "O cliente precisa entender o que voce faz, para quem serve e qual problema resolve sem traduzir frase bonita."},
+        {"t": "Depois: prova", "b": "Mostre processo, projeto, tela, depoimento, foto real ou explicacao concreta. Promessa sem prova fica leve demais."},
+        {"t": "Por fim: caminho", "b": "Diagnostico, WhatsApp, calculadora ou orcamento. A pagina precisa apontar para uma acao simples."}
+      ],
+      "caption": "Site bom nao e mural. E caminho: entender, confiar e chamar.",
+      "cta": "Comenta HOME que eu te mando o mapa de uma pagina que gera lead"
+    },
+    {
+      "id": 11,
+      "pilar": "diagnostico",
+      "cover": {"title": "Tecnologia nao resolve processo confuso sozinha", "sub": "Primeiro organiza, depois automatiza"},
+      "slides": [
+        {"t": "O sintoma", "b": "Cada pessoa faz de um jeito, ninguem sabe qual planilha vale e o cliente recebe resposta diferente dependendo do dia."},
+        {"t": "O ajuste", "b": "Defina etapas, responsaveis, regra de decisao e onde cada informacao mora. Depois o sistema consegue trabalhar por voce."},
+        {"t": "Pergunta guia", "b": "Se uma pessoa nova entrasse hoje, ela conseguiria seguir o processo sem depender da memoria de alguem?"}
+      ],
+      "caption": "A Andolini desenha o fluxo antes de construir. Isso evita sistema bonito em cima de bagunca.",
+      "cta": "Comenta PROCESSO que eu te mando uma forma simples de mapear"
+    },
+    {
+      "id": 12,
+      "pilar": "conversao",
+      "cover": {"title": "Prova boa mostra o sistema rodando", "sub": "Nao e so print bonito"},
+      "slides": [
+        {"t": "O que vira prova", "b": "Tela do sistema, fluxo funcionando, antes/depois do processo, depoimento, bastidor, explicacao de regra e resultado operacional."},
+        {"t": "Contexto importa", "b": "Diga qual problema existia, o que foi construido e qual tarefa deixou de depender de alguem fazendo manualmente."},
+        {"t": "Onde colocar", "b": "Perto da oferta. Se voce vende automacao, mostre a rotina mais leve. Se vende site, mostre contato chegando."}
+      ],
+      "caption": "A melhor prova para automacao e mostrar o trabalho repetitivo saindo da frente.",
+      "cta": "Comenta PROVA que eu te mando 7 provas para aumentar confianca"
+    },
+    {
+      "id": 13,
+      "pilar": "automacao",
+      "cover": {"title": "Lead bom nao pode morrer esquecido no WhatsApp", "sub": "Triagem e retorno automatizados"},
+      "slides": [
+        {"t": "O problema", "b": "A conversa comeca animada, alguem pede informacao, a equipe fica corrida e o retorno some no meio de outras mensagens."},
+        {"t": "A automacao ajuda", "b": "Coleta nome, necessidade e prazo. Registra a origem. Cria lembrete. Entrega tudo para o atendimento continuar com contexto."},
+        {"t": "Sem perder o humano", "b": "A automacao organiza. A conversa importante continua com gente, mas com menos retrabalho e menos esquecimento."}
+      ],
+      "caption": "Automacao no atendimento nao substitui relacionamento. Ela protege oportunidade.",
+      "cta": "Comenta LEAD que eu te mando uma triagem para chegar no atendimento com contexto"
+    },
+    {
+      "id": 14,
+      "pilar": "local",
+      "cover": {"title": "Seu Google Maps precisa conversar com seu site", "sub": "Presenca local sem ponta solta"},
+      "slides": [
+        {"t": "Dados iguais", "b": "Telefone, horario, endereco, servicos e link precisam bater. Inconsistencia cria duvida antes da conversa comecar."},
+        {"t": "Promessa alinhada", "b": "Se o Maps fala um servico e o site vende outro, a pessoa fica sem saber se voce atende o que ela precisa."},
+        {"t": "Rotina mensal", "b": "✓ revisar horario\n✓ testar links\n✓ atualizar fotos\n✓ responder avaliacoes\n✓ conferir servicos"}
+      ],
+      "caption": "Para negocio local, site e Google Maps precisam trabalhar juntos para gerar contato.",
+      "cta": "Comenta LOCAL que eu te mando o checklist de presenca local"
+    },
+    {
+      "id": 15,
+      "pilar": "bastidores",
+      "cover": {"title": "O que acelera um projeto sob medida", "sub": "Material antes do codigo"},
+      "slides": [
+        {"t": "Processo real", "b": "Como o trabalho acontece hoje, quem participa, onde trava, quais ferramentas entram e qual resultado precisa sair."},
+        {"t": "Regras do negocio", "b": "Desconto, estoque, prazo, aprovacao, status, notificacao, permissao por cargo. Sistema bom respeita essas regras."},
+        {"t": "Provas e conteudo", "b": "Para site, precisamos de servicos, fotos, exemplos, perguntas comuns e motivos para o cliente confiar."}
+      ],
+      "caption": "Projeto sob medida fica melhor quando a rotina esta clara antes da primeira tela nascer.",
+      "cta": "Comenta MATERIAL que eu te mando a lista para tirar seu projeto do papel"
+    },
+    {
+      "id": 16,
+      "pilar": "diagnostico",
+      "cover": {"title": "Site lento tambem rouba venda", "sub": "Principalmente no celular"},
+      "slides": [
+        {"t": "O cliente sente", "b": "Ele nao chama de performance. Chama de site travando, demorando ou ruim de mexer."},
+        {"t": "O efeito", "b": "Antes de entender sua oferta, a pessoa pode desistir. Site que vende precisa abrir bem, ler bem e chamar facil."},
+        {"t": "Checklist simples", "b": "✓ imagem leve\n✓ botao visivel\n✓ fonte carregando bem\n✓ formulario curto\n✓ WhatsApp facil"}
+      ],
+      "caption": "Web design tambem e operacao. Se o site trava no celular, ele atrapalha o contato.",
+      "cta": "Comenta LENTO que eu te mando os pontos que travam o site no celular"
+    },
+    {
+      "id": 17,
+      "pilar": "conversao",
+      "cover": {"title": "Proposta sem contexto vira so preco", "sub": "Explique o caminho"},
+      "slides": [
+        {"t": "O erro", "b": "Mandar valor sem explicar escopo, prazo, suporte, etapas e o que muda na rotina do cliente."},
+        {"t": "A melhora", "b": "Mostre o problema, o que sera construido, como funciona, o que fica incluso e qual proximo passo."},
+        {"t": "Para sob medida", "b": "O cliente nao compra codigo. Compra menos retrabalho, mais controle, atendimento melhor ou venda mais organizada."}
+      ],
+      "caption": "Quando voce vende tecnologia para pequeno negocio, precisa traduzir projeto em ganho pratico.",
+      "cta": "Comenta PRECO que eu te mando um modelo para explicar sua proposta"
+    },
+    {
+      "id": 18,
+      "pilar": "automacao",
+      "cover": {"title": "E-commerce pequeno tambem precisa de fluxo", "sub": "Pedido, estoque e retorno"},
+      "slides": [
+        {"t": "O gargalo", "b": "Pedido chega, estoque nao atualiza, cliente pergunta status e alguem precisa juntar informacao em varios lugares."},
+        {"t": "Automacao possivel", "b": "Pedido confirmado, estoque baixa, aviso sai, planilha atualiza e a equipe enxerga o status sem procurar conversa antiga."},
+        {"t": "Comece por um ponto", "b": "Nao precisa automatizar tudo de uma vez. Escolha a etapa que mais gera atraso, erro ou pergunta repetida."}
+      ],
+      "caption": "Para e-commerce pequeno, fluxo organizado reduz erro e melhora atendimento sem aumentar equipe.",
+      "cta": "Comenta PEDIDO que eu te mando um fluxo para organizar pedidos"
+    },
+    {
+      "id": 19,
+      "pilar": "local",
+      "cover": {"title": "Avaliacao respondida tambem e atendimento", "sub": "Google Maps com presenca"},
+      "slides": [
+        {"t": "Responder mostra cuidado", "b": "Quem pesquisa ve se a empresa aparece depois da venda. Resposta boa passa presenca e seriedade."},
+        {"t": "Evite texto robo", "b": "Use uma estrutura, mas personalize. Agradeca, cite o ponto principal e convide a voltar quando fizer sentido."},
+        {"t": "Conecte com o site", "b": "Boas avaliacoes podem inspirar prova social no site, sem inventar nada e sem depender de frase generica."}
+      ],
+      "caption": "Presenca local forte combina Maps cuidado, site claro e atendimento facil.",
+      "cta": "Comenta AVALIACAO que eu te mando respostas para ganhar confianca no Maps"
+    },
+    {
+      "id": 20,
+      "pilar": "bastidores",
+      "cover": {"title": "A gente corta efeito que atrapalha decisao", "sub": "Design com criterio"},
+      "slides": [
+        {"t": "Efeito nao salva mensagem confusa", "b": "Animacao bonita pode chamar atencao, mas se a oferta nao esta clara, ela vira distracao."},
+        {"t": "Quando usar", "b": "Para guiar olhar, mostrar mudanca, destacar acao ou explicar um fluxo. Movimento precisa ajudar a entender."},
+        {"t": "Nosso filtro", "b": "Se pesa no celular, atrapalha leitura ou esconde o botao, sai. Site precisa trabalhar."}
+      ],
+      "caption": "A Andolini trata visual como parte da funcao: clareza, velocidade e contato.",
+      "cta": "Comenta EFEITO que eu te mando um filtro para seu site ficar mais claro"
+    },
+    {
+      "id": 21,
+      "pilar": "diagnostico",
+      "cover": {"title": "Seu site funciona no polegar do cliente?", "sub": "Mobile primeiro de verdade"},
+      "slides": [
+        {"t": "Teste simples", "b": "Abra o site no celular e tente entender a oferta, achar prova e chamar no WhatsApp com uma mao."},
+        {"t": "Onde costuma travar", "b": "Texto grande demais, botao pequeno, imagem pesada, menu confuso e formulario que pede mais do que precisa."},
+        {"t": "O essencial", "b": "✓ promessa clara\n✓ botao visivel\n✓ carregamento rapido\n✓ contato facil\n✓ leitura confortavel"}
+      ],
+      "caption": "Site que vende precisa funcionar onde o cliente decide: muitas vezes, no celular e com pressa.",
+      "cta": "Comenta MOBILE que eu te mando um teste de 5 minutos no celular"
+    },
+    {
+      "id": 22,
+      "pilar": "conversao",
+      "cover": {"title": "Formulario longo demais vira barreira", "sub": "Menos atrito para chamar"},
+      "slides": [
+        {"t": "Cada campo cobra energia", "b": "Nome, email, telefone, empresa, cargo, cidade, mensagem enorme. Se nao precisa agora, talvez atrapalhe."},
+        {"t": "Primeiro contato", "b": "Nome, WhatsApp e uma pergunta objetiva podem bastar para iniciar diagnostico sem cansar a pessoa."},
+        {"t": "Alternativa forte", "b": "Botao para WhatsApp com mensagem pronta. O cliente ja chega dizendo o que precisa, e a equipe responde com contexto."}
+      ],
+      "caption": "Gerar lead tambem e remover atrito. Quanto mais facil chamar, mais chance de conversa boa comecar.",
+      "cta": "Comenta FORM que eu te mando um formulario que reduz atrito"
+    },
+    {
+      "id": 23,
+      "pilar": "automacao",
+      "cover": {"title": "CRM simples antes do sistema gigante", "sub": "Nao perca lead por falta de etapa"},
+      "slides": [
+        {"t": "Sem etapa, sem controle", "b": "Contato novo, proposta enviada, aguardando retorno, fechado, perdido. Se isso nao existe, tudo depende da memoria."},
+        {"t": "O basico funciona", "b": "Organize origem, status, responsavel, proximo retorno e observacao. Depois a automacao lembra e atualiza."},
+        {"t": "Quando vira sistema", "b": "Se a planilha ja nao da conta, um painel sob medida pode refletir exatamente como sua equipe vende."}
+      ],
+      "caption": "A Andolini cria sistemas em volta do processo real. Mas antes, o caminho precisa estar claro.",
+      "cta": "Comenta CRM que eu te mando um funil para nao perder lead"
+    },
+    {
+      "id": 24,
+      "pilar": "local",
+      "cover": {"title": "Pagina local precisa ajudar uma pessoa real", "sub": "Nao e repetir bairro sem contexto"},
+      "slides": [
+        {"t": "Quando faz sentido", "b": "Se voce atende Bangu, Zona Oeste ou regioes especificas, a pagina pode explicar servicos, area e como chamar."},
+        {"t": "O que colocar", "b": "Fotos reais, servicos, perguntas comuns, formas de atendimento, prazo, referencia local e prova de cliente da regiao."},
+        {"t": "Cuidado", "b": "Nao crie texto artificial so para ranquear. Conteudo local bom responde duvida de quem pode contratar."}
+      ],
+      "caption": "SEO local precisa servir ao cliente antes de servir ao algoritmo.",
+      "cta": "Comenta BAIRRO que eu te mando um modelo de pagina para sua regiao"
+    },
+    {
+      "id": 25,
+      "pilar": "bastidores",
+      "cover": {"title": "As melhores paginas nascem das perguntas do WhatsApp", "sub": "Atendimento vira conteudo"},
+      "slides": [
+        {"t": "A mina de ouro", "b": "Se o cliente pergunta sempre a mesma coisa, seu site ainda nao respondeu direito."},
+        {"t": "Como usamos", "b": "Agrupamos duvidas por preco, prazo, entrega, suporte, garantia, processo e comparacao."},
+        {"t": "Resultado", "b": "A pagina filtra melhor, reduz pergunta repetida e faz o atendimento comecar mais perto da decisao."}
+      ],
+      "caption": "Site, automacao e atendimento precisam conversar. O que aparece todo dia no WhatsApp merece virar parte da experiencia.",
+      "cta": "Comenta PERGUNTAS que eu te mando um roteiro para transformar duvidas em pagina"
+    },
+    {
+      "id": 26,
+      "pilar": "diagnostico",
+      "cover": {"title": "Checklist de uma home que gera contato", "sub": "Olhe sua pagina como cliente"},
+      "slides": [
+        {"t": "Topo", "b": "✓ o que voce faz\n✓ para quem serve\n✓ qual dor resolve\n✓ botao claro\n✓ carregamento rapido"},
+        {"t": "Meio", "b": "✓ servicos explicados\n✓ prova concreta\n✓ processo simples\n✓ perguntas comuns\n✓ exemplos reais"},
+        {"t": "Final", "b": "✓ convite direto\n✓ WhatsApp facil\n✓ diagnostico ou orcamento\n✓ sem deixar duvida basica aberta"}
+      ],
+      "caption": "Uma home boa nao joga informacao na tela. Ela guia o cliente para chamar com seguranca.",
+      "cta": "Comenta CHECK que eu te mando o checklist de uma home que gera contato"
+    },
+    {
+      "id": 27,
+      "pilar": "conversao",
+      "cover": {"title": "Oferta boa traduz tecnologia em ganho pratico", "sub": "Fale menos ferramenta, mais resultado"},
+      "slides": [
+        {"t": "Nao venda codigo", "b": "Venda o que muda: menos retrabalho, pedido organizado, estoque certo, lead acompanhado, relatorio pronto."},
+        {"t": "Explique para quem e", "b": "Pequeno negocio que depende de WhatsApp, planilha e atendimento manual, mas quer ganhar controle sem montar equipe de TI."},
+        {"t": "Mostre o caminho", "b": "Diagnostico, desenho do fluxo, construcao, teste, entrega e suporte. Processo claro reduz medo de tecnologia."}
+      ],
+      "caption": "Tecnologia assusta menos quando o cliente entende o que vai mudar na rotina dele.",
+      "cta": "Comenta OFERTA que eu te mando um modelo para vender sem enrolar"
+    },
+    {
+      "id": 28,
+      "pilar": "automacao",
+      "cover": {"title": "Follow-up nao precisa depender da memoria", "sub": "Retorno com contexto"},
+      "slides": [
+        {"t": "Por que automatizar", "b": "Cliente ocupado esquece. Equipe corrida tambem. O sistema pode lembrar sem transformar a conversa em cobranca."},
+        {"t": "Mensagem boa", "b": "Oi, passando para saber se ficou alguma duvida sobre a proposta. Posso te ajudar a comparar os caminhos?"},
+        {"t": "Regra de ouro", "b": "Tenha contexto, limite e saida. Follow-up bom facilita decisao, nao insiste para sempre."}
+      ],
+      "caption": "Automatizar retorno ajuda a proteger oportunidades sem perder o tom humano.",
+      "cta": "Comenta RETORNO que eu te mando 3 follow-ups para reabrir conversa"
+    },
+    {
+      "id": 29,
+      "pilar": "local",
+      "cover": {"title": "Site, Maps e WhatsApp precisam contar a mesma historia", "sub": "Consistencia gera confianca"},
+      "slides": [
+        {"t": "Mesmo contato", "b": "Telefone, horario, servicos e links precisam bater. Se cada lugar diz uma coisa, o cliente hesita."},
+        {"t": "Mesmo posicionamento", "b": "Se voce vende atendimento rapido, diagnostico ou projeto sob medida, isso precisa aparecer em todos os pontos."},
+        {"t": "Rotina simples", "b": "✓ revisar dados\n✓ testar botao\n✓ atualizar fotos\n✓ conferir servicos\n✓ responder avaliacoes"}
+      ],
+      "caption": "Presenca digital forte e um conjunto: site claro, Maps cuidado e WhatsApp pronto para receber.",
+      "cta": "Comenta CONSISTENCIA que eu te mando uma rotina para site e Maps"
+    },
+    {
+      "id": 30,
+      "pilar": "bastidores",
+      "cover": {"title": "O caminho Andolini: diagnosticar, desenhar, construir e sustentar", "sub": "Tecnologia do tamanho do problema"},
+      "slides": [
+        {"t": "Diagnostico", "b": "Mapeamos onde seu tempo escapa e o que da para automatizar primeiro."},
+        {"t": "Desenho", "b": "Organizamos o fluxo ideal antes de escrever codigo ou desenhar tela."},
+        {"t": "Construcao e suporte", "b": "Entregamos rodando, testado e com acompanhamento para ajustar quando a rotina mudar."}
+      ],
+      "caption": "A Andolini nasceu para tirar o medo da palavra tecnologia. Voce explica a rotina, a gente traduz em fluxo, site ou sistema.",
+      "cta": "Comenta ANDOLINI que eu te mando o caminho do diagnostico ate rodar"
+    }
+  ]
+}

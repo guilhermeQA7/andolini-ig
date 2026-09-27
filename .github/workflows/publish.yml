@@ -1,0 +1,51 @@
+name: Publish Instagram Carousel
+
+on:
+  schedule:
+    - cron: "47 14 * * 1-6"
+  workflow_dispatch:
+    inputs:
+      post_id:
+        description: "ID opcional do post"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+      COMPOSIO_USER_ID: ${{ secrets.COMPOSIO_USER_ID }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/output
+      PUBLISH_START_DATE: ${{ vars.PUBLISH_START_DATE }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Publish next pending post
+        run: |
+          if [ -n "${{ inputs.post_id }}" ]; then
+            python publish.py --id "${{ inputs.post_id }}"
+          else
+            python publish.py
+          fi
+
+      - name: Commit state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/published.json
+          git diff --cached --quiet || git commit -m "chore: update published state"
+          git push

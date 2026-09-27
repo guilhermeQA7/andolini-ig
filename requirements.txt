@@ -1,0 +1,2 @@
+composio>=0.9
+pillow>=10
