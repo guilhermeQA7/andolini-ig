@@ -6,40 +6,45 @@
   "hashtags": {
     "base": [
       "#AndoliniLabs",
-      "#Automacao",
-      "#SistemasSobMedida",
-      "#SitesProfissionais",
-      "#PequenosNegocios"
+      "#PequenosNegocios",
+      "#EcommerceBrasil",
+      "#GestaoDeNegocios",
+      "#TecnologiaParaNegocios"
     ],
     "diagnostico": [
       "#DiagnosticoDeProcesso",
-      "#SiteQueVende",
-      "#PresencaDigital",
-      "#NegocioNoDigital"
+      "#ProcessosEmpresariais",
+      "#NegocioOrganizado",
+      "#GestaoOperacional",
+      "#SiteQueVende"
     ],
     "conversao": [
       "#Conversao",
-      "#LandingPage",
       "#VendasOnline",
+      "#SiteProfissional",
+      "#LandingPage",
       "#GeracaoDeLeads"
     ],
     "automacao": [
+      "#Automacao",
       "#AutomacaoComIA",
       "#WhatsAppBusiness",
       "#CRM",
-      "#Produtividade"
+      "#AtendimentoDigital"
     ],
     "bastidores": [
       "#BastidoresDaAgencia",
       "#AgenciaDigital",
+      "#SistemasSobMedida",
       "#Processos",
-      "#TecnologiaParaNegocios"
+      "#WebDesignRJ"
     ],
     "local": [
       "#SEOLocal",
       "#GoogleMaps",
       "#BanguRJ",
-      "#RioDeJaneiro"
+      "#RioDeJaneiro",
+      "#NegocioLocal"
     ]
   },
   "posts": [
@@ -64,7 +69,7 @@
           "b": "Automatize a tarefa que acontece todo dia, tem regra clara e tira sua atenção do que gera dinheiro."
         }
       ],
-      "caption": "Automação boa começa no diagnóstico. Primeiro a gente entende onde seu tempo está vazando, depois desenha o fluxo certo.",
+      "caption": "Se sua empresa só anda quando você está em cima, o problema não é falta de esforço. Pode ser processo manual demais.\n\nAntes de pensar em ferramenta, vale olhar onde pedido, atendimento, planilha e decisão estão prendendo seu tempo.",
       "cta": "Comenta TEMPO que eu te chamo na DM para olhar sua rotina"
     },
     {
@@ -88,7 +93,7 @@
           "b": "Bonito porque funciona. Se o visual não ajuda o cliente a entender e chamar, é só enfeite."
         }
       ],
-      "caption": "A Andolini cria sites rápidos, prontos para celular e desenhados para gerar contato. Beleza entra a serviço da venda.",
+      "caption": "Site bonito ajuda. Mas site que vende precisa deixar claro o próximo passo.\n\nPara pequeno negócio e e-commerce, a página precisa explicar a oferta, criar confiança e levar a pessoa para uma conversa com contexto.",
       "cta": "Comenta SITE que eu te chamo na DM para analisar sua página"
     },
     {
@@ -112,7 +117,7 @@
           "b": "✓ capturar lead\n✓ registrar origem\n✓ avisar responsável\n✓ lembrar retorno\n✓ atualizar planilha"
         }
       ],
-      "caption": "Automação não precisa ser gigante. Muitas vezes o primeiro ganho vem de conectar as ferramentas que você já usa.",
+      "caption": "Quando WhatsApp, planilha e CRM não conversam, alguém vira ponte entre tudo. E essa ponte geralmente é o dono.\n\nAutomação boa começa tirando o copiar e colar da rotina.",
       "cta": "Comenta ZAP que eu te chamo na DM para entender seu atendimento"
     },
     {
@@ -136,7 +141,7 @@
           "b": "O Maps mostra que você existe. O site explica por que vale chamar você e qual próximo passo tomar."
         }
       ],
-      "caption": "Para negócio local, presença digital não é luxo. É a vitrine que trabalha antes do primeiro contato.",
+      "caption": "Antes de chamar no WhatsApp, muita gente confere se o negócio parece vivo no digital.\n\nGoogle Maps, site e fotos reais precisam passar confiança antes do primeiro contato.",
       "cta": "Comenta MAPS que eu te chamo na DM para ver sua presença local"
     },
     {
@@ -160,7 +165,7 @@
           "b": "Se essa tarefa rodasse sozinha, o que você faria com o tempo de volta?"
         }
       ],
-      "caption": "Nosso processo parte do jeito que o negócio trabalha hoje. Sem solução genérica empurrada para caber em qualquer empresa.",
+      "caption": "A Andolini não começa perguntando qual sistema você quer. A gente começa entendendo como sua rotina funciona hoje.\n\nPorque tecnologia em cima de processo confuso só deixa a bagunça mais cara.",
       "cta": "Comenta BRIEFING que eu te chamo na DM para mapear seu processo"
     },
     {
@@ -188,7 +193,7 @@
           "b": "Mapeie entrada, decisão, responsável e saída. Depois fica claro o que dá para automatizar primeiro."
         }
       ],
-      "caption": "Automação boa tira peso da rotina sem transformar o negócio em um projeto infinito de TI.",
+      "caption": "Tem empresa que não precisa vender mais agora. Precisa parar de perder tempo no caminho.\n\nSe pedido, atendimento e relatório dependem de lembrança manual, já existe um gargalo pedindo atenção.",
       "cta": "Comenta ROTINA que eu te chamo na DM para achar o gargalo"
     },
     {
@@ -212,7 +217,7 @@
           "b": "Topo do site, final da página, bloco de serviço, depois de prova e perto de qualquer simulador ou calculadora."
         }
       ],
-      "caption": "No site da Andolini, o CTA guia para diagnóstico, calculadora ou conversa. O cliente precisa saber o que ganha ao clicar.",
+      "caption": "CTA fraco deixa o cliente pensando. CTA bom mostra o que acontece depois.\n\nNo site, no WhatsApp ou na proposta, o próximo passo precisa ser claro o suficiente para a pessoa agir sem adivinhar.",
       "cta": "Comenta BOTAO que eu te chamo na DM para ajustar seu próximo passo"
     },
     {
@@ -236,7 +241,7 @@
           "b": "Uma triagem no WhatsApp que entende a necessidade, salva dados e entrega contexto para quem vai atender."
         }
       ],
-      "caption": "Automatizar não é sobre robô. É sobre tirar da sua mesa o que não precisava depender de você.",
+      "caption": "IA não precisa entrar no seu negócio como palestra futurista.\n\nEla pode começar ajudando no simples: resumir conversa, classificar pedido, organizar lead e entregar contexto para atendimento.",
       "cta": "Comenta IA que eu te chamo na DM para ver onde automatizar"
     },
     {
@@ -260,7 +265,7 @@
           "b": "✓ fachada\n✓ equipe\n✓ produto\n✓ processo\n✓ cliente atendido\n✓ detalhe do serviço"
         }
       ],
-      "caption": "Para pequenos negócios, confiança vem muito do concreto. Foto real ajuda mais do que visual genérico.",
+      "caption": "Foto real vende confiança porque mostra que o negócio existe, entrega e tem rotina.\n\nPara pequeno negócio, isso pesa mais do que arte bonita sem prova.",
       "cta": "Comenta FOTO que eu te chamo na DM para analisar sua confiança online"
     },
     {
@@ -284,7 +289,7 @@
           "b": "Diagnóstico, WhatsApp, calculadora ou orçamento. A página precisa apontar para uma ação simples."
         }
       ],
-      "caption": "Site bom não é mural. É caminho: entender, confiar e chamar.",
+      "caption": "Uma página boa não é um mural sobre a empresa. É um caminho.\n\nA pessoa entende o problema, vê prova, confia um pouco mais e sabe como chamar.",
       "cta": "Comenta HOME que eu te chamo na DM para revisar sua página inicial"
     },
     {
@@ -308,7 +313,7 @@
           "b": "Se uma pessoa nova entrasse hoje, ela conseguiria seguir o processo sem depender da memória de alguém?"
         }
       ],
-      "caption": "A Andolini desenha o fluxo antes de construir. Isso evita sistema bonito em cima de bagunça.",
+      "caption": "Tecnologia não conserta processo que cada pessoa faz de um jeito.\n\nAntes de automatizar, precisa definir etapa, responsável, informação e regra de decisão.",
       "cta": "Comenta PROCESSO que eu te chamo na DM para entender sua operação"
     },
     {
@@ -332,7 +337,7 @@
           "b": "Perto da oferta. Se você vende automação, mostre a rotina mais leve. Se vende site, mostre contato chegando."
         }
       ],
-      "caption": "A melhor prova para automação é mostrar o trabalho repetitivo saindo da frente.",
+      "caption": "Se você vende site, automação ou sistema, a prova precisa mostrar o trabalho rodando.\n\nPrint bonito ajuda, mas contexto vende melhor: problema, solução e rotina mais leve.",
       "cta": "Comenta PROVA que eu te chamo na DM para ver o que seu site precisa provar"
     },
     {
@@ -356,7 +361,7 @@
           "b": "A automação organiza. A conversa importante continua com gente, mas com menos retrabalho e menos esquecimento."
         }
       ],
-      "caption": "Automação no atendimento não substitui relacionamento. Ela protege oportunidade.",
+      "caption": "Lead esquecido no WhatsApp não parece prejuízo na hora. Mas vira oportunidade perdida.\n\nUm fluxo simples de triagem e retorno já ajuda a equipe a não depender só da memória.",
       "cta": "Comenta LEAD que eu te chamo na DM para olhar seu funil"
     },
     {
@@ -380,7 +385,7 @@
           "b": "✓ revisar horário\n✓ testar links\n✓ atualizar fotos\n✓ responder avaliações\n✓ conferir serviços"
         }
       ],
-      "caption": "Para negócio local, site e Google Maps precisam trabalhar juntos para gerar contato.",
+      "caption": "Google Maps, site e WhatsApp precisam falar a mesma língua.\n\nQuando telefone, horário, serviço e promessa não batem, o cliente sente dúvida antes mesmo de chamar.",
       "cta": "Comenta LOCAL que eu te chamo na DM para revisar site e Maps"
     },
     {
@@ -404,7 +409,7 @@
           "b": "Para site, precisamos de serviços, fotos, exemplos, perguntas comuns e motivos para o cliente confiar."
         }
       ],
-      "caption": "Projeto sob medida fica melhor quando a rotina está clara antes da primeira tela nascer.",
+      "caption": "Projeto sob medida fica mais rápido quando a rotina está clara.\n\nProcesso, regra de negócio, prazo, status e responsáveis precisam aparecer antes da primeira tela bonita.",
       "cta": "Comenta MATERIAL que eu te chamo na DM para entender seu projeto"
     },
     {
@@ -428,7 +433,7 @@
           "b": "✓ imagem leve\n✓ botão visível\n✓ fonte carregando bem\n✓ formulário curto\n✓ WhatsApp fácil"
         }
       ],
-      "caption": "Web design também é operação. Se o site trava no celular, ele atrapalha o contato.",
+      "caption": "Site lento não é só problema técnico. É atrito comercial.\n\nSe a pessoa demora para entender sua oferta no celular, talvez ela desista antes de chamar.",
       "cta": "Comenta LENTO que eu te chamo na DM para olhar seu site no celular"
     },
     {
@@ -452,7 +457,7 @@
           "b": "O cliente não compra código. Compra menos retrabalho, mais controle, atendimento melhor ou venda mais organizada."
         }
       ],
-      "caption": "Quando você vende tecnologia para pequeno negócio, precisa traduzir projeto em ganho prático.",
+      "caption": "Proposta sem contexto vira comparação de preço.\n\nQuando você explica o problema, o caminho e o ganho prático, tecnologia deixa de parecer custo solto.",
       "cta": "Comenta PRECO que eu te chamo na DM para revisar sua proposta"
     },
     {
@@ -476,7 +481,7 @@
           "b": "Não precisa automatizar tudo de uma vez. Escolha a etapa que mais gera atraso, erro ou pergunta repetida."
         }
       ],
-      "caption": "Para e-commerce pequeno, fluxo organizado reduz erro e melhora atendimento sem aumentar equipe.",
+      "caption": "E-commerce pequeno também precisa de processo.\n\nSe pedido, estoque e atendimento não conversam, a venda vira cobrança, retrabalho e cliente perguntando status toda hora.",
       "cta": "Comenta PEDIDO que eu te chamo na DM para entender seus pedidos"
     },
     {
@@ -500,7 +505,7 @@
           "b": "Boas avaliações podem inspirar prova social no site, sem inventar nada e sem depender de frase genérica."
         }
       ],
-      "caption": "Presença local forte combina Maps cuidado, site claro e atendimento fácil.",
+      "caption": "Responder avaliação também é presença digital.\n\nQuem pesquisa sua empresa quer sinais de cuidado antes de comprar, chamar ou pedir orçamento.",
       "cta": "Comenta AVALIACAO que eu te chamo na DM para revisar sua vitrine local"
     },
     {
@@ -524,7 +529,7 @@
           "b": "Se pesa no celular, atrapalha leitura ou esconde o botão, sai. Site precisa trabalhar."
         }
       ],
-      "caption": "A Andolini trata visual como parte da função: clareza, velocidade e contato.",
+      "caption": "Design bonito não pode atrapalhar decisão.\n\nNa Andolini, efeito só fica se ajuda a entender, guiar o olhar ou deixar o próximo passo mais claro.",
       "cta": "Comenta EFEITO que eu te chamo na DM para ver se seu site está claro"
     },
     {
@@ -548,7 +553,7 @@
           "b": "✓ promessa clara\n✓ botão visível\n✓ carregamento rápido\n✓ contato fácil\n✓ leitura confortável"
         }
       ],
-      "caption": "Site que vende precisa funcionar onde o cliente decide: muitas vezes, no celular e com pressa.",
+      "caption": "Seu site precisa funcionar no jeito real que o cliente usa: celular, pressa e uma mão só.\n\nSe botão, texto e contato não estão fáceis, a experiência já começa pesada.",
       "cta": "Comenta MOBILE que eu te chamo na DM para testar sua experiência"
     },
     {
@@ -572,7 +577,7 @@
           "b": "Botão para WhatsApp com mensagem pronta. O cliente já chega dizendo o que precisa, e a equipe responde com contexto."
         }
       ],
-      "caption": "Gerar lead também é remover atrito. Quanto mais fácil chamar, mais chance de conversa boa começar.",
+      "caption": "Formulário grande demais pode matar uma conversa boa.\n\nNo primeiro contato, peça só o que ajuda a iniciar diagnóstico. O resto pode vir depois, com contexto.",
       "cta": "Comenta FORM que eu te chamo na DM para reduzir atrito no contato"
     },
     {
@@ -596,7 +601,7 @@
           "b": "Se a planilha já não dá conta, um painel sob medida pode refletir exatamente como sua equipe vende."
         }
       ],
-      "caption": "A Andolini cria sistemas em volta do processo real. Mas antes, o caminho precisa estar claro.",
+      "caption": "CRM não precisa nascer gigante. Precisa nascer útil.\n\nOrigem, status, responsável e próximo retorno já ajudam a parar de perder lead no meio da correria.",
       "cta": "Comenta CRM que eu te chamo na DM para organizar seus leads"
     },
     {
@@ -620,7 +625,7 @@
           "b": "Não crie texto artificial só para ranquear. Conteúdo local bom responde dúvida de quem pode contratar."
         }
       ],
-      "caption": "SEO local precisa servir ao cliente antes de servir ao algoritmo.",
+      "caption": "SEO local bom não é repetir bairro até cansar.\n\nÉ criar uma página que ajuda uma pessoa real a entender se você atende, como atende e por onde chamar.",
       "cta": "Comenta BAIRRO que eu te chamo na DM para revisar sua busca local"
     },
     {
@@ -644,7 +649,7 @@
           "b": "A página filtra melhor, reduz pergunta repetida e faz o atendimento começar mais perto da decisão."
         }
       ],
-      "caption": "Site, automação e atendimento precisam conversar. O que aparece todo dia no WhatsApp merece virar parte da experiência.",
+      "caption": "As perguntas repetidas do WhatsApp mostram onde seu site ainda não explicou direito.\n\nQuando atendimento vira conteúdo, a venda começa mais organizada.",
       "cta": "Comenta PERGUNTAS que eu te chamo na DM para transformar dúvidas em venda"
     },
     {
@@ -668,7 +673,7 @@
           "b": "✓ convite direto\n✓ WhatsApp fácil\n✓ diagnóstico ou orçamento\n✓ sem deixar dúvida básica aberta"
         }
       ],
-      "caption": "Uma home boa não joga informação na tela. Ela guia o cliente para chamar com segurança.",
+      "caption": "Uma home que gera contato não joga tudo na tela. Ela guia.\n\nMostra o que você faz, para quem serve, por que confiar e qual próximo passo tomar.",
       "cta": "Comenta CHECK que eu te chamo na DM para revisar sua home"
     },
     {
@@ -692,7 +697,7 @@
           "b": "Diagnóstico, desenho do fluxo, construção, teste, entrega e suporte. Processo claro reduz medo de tecnologia."
         }
       ],
-      "caption": "Tecnologia assusta menos quando o cliente entende o que vai mudar na rotina dele.",
+      "caption": "Pequeno empresário não compra código. Compra controle, menos retrabalho e mais clareza para vender melhor.\n\nA oferta precisa traduzir tecnologia em ganho de rotina.",
       "cta": "Comenta OFERTA que eu te chamo na DM para entender sua venda"
     },
     {
@@ -716,7 +721,7 @@
           "b": "Tenha contexto, limite e saída. Follow-up bom facilita decisão, não insiste para sempre."
         }
       ],
-      "caption": "Automatizar retorno ajuda a proteger oportunidades sem perder o tom humano.",
+      "caption": "Follow-up não deveria depender só da memória da equipe.\n\nCom regra, contexto e limite, o retorno protege oportunidade sem virar cobrança chata.",
       "cta": "Comenta RETORNO que eu te chamo na DM para ver seus follow-ups"
     },
     {
@@ -740,7 +745,7 @@
           "b": "✓ revisar dados\n✓ testar botão\n✓ atualizar fotos\n✓ conferir serviços\n✓ responder avaliações"
         }
       ],
-      "caption": "Presença digital forte é um conjunto: site claro, Maps cuidado e WhatsApp pronto para receber.",
+      "caption": "Site, Maps e WhatsApp precisam contar a mesma história.\n\nQuando cada canal promete uma coisa, o cliente hesita. Consistência também vende.",
       "cta": "Comenta CONSISTENCIA que eu te chamo na DM para revisar seus canais"
     },
     {
@@ -764,7 +769,7 @@
           "b": "Entregamos rodando, testado e com acompanhamento para ajustar quando a rotina mudar."
         }
       ],
-      "caption": "A Andolini nasceu para tirar o medo da palavra tecnologia. Você explica a rotina, a gente traduz em fluxo, site ou sistema.",
+      "caption": "O caminho da Andolini é simples: diagnosticar, desenhar, construir e sustentar.\n\nA ferramenta vem depois que a rotina fica clara. É assim que tecnologia vira operação, não enfeite.",
       "cta": "Comenta ANDOLINI que eu te chamo na DM para ver se faz sentido diagnosticar"
     }
   ]
