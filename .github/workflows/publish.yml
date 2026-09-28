@@ -2,7 +2,7 @@ name: Publish Instagram Carousel
 
 on:
   schedule:
-    - cron: "12 11 * * 1-5"
+    - cron: "17 11 * * 1-5"
   workflow_dispatch:
     inputs:
       post_id:
