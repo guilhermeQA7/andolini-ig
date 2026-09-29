@@ -2,7 +2,7 @@ name: Publish Instagram Carousel
 
 on:
   schedule:
-    - cron: "17 11 * * 1-5"
+    - cron: "17,37 11 * * 1-5"
   workflow_dispatch:
     inputs:
       post_id:
@@ -13,9 +13,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: instagram-publish
+  cancel-in-progress: false
+
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     env:
       COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
       COMPOSIO_USER_ID: ${{ secrets.COMPOSIO_USER_ID }}
@@ -35,9 +40,14 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Publish next pending post
+        env:
+          POST_ID: ${{ inputs.post_id }}
+          IS_SCHEDULED: ${{ github.event_name == 'schedule' }}
         run: |
-          if [ -n "${{ inputs.post_id }}" ]; then
-            python publish.py --id "${{ inputs.post_id }}"
+          if [ "$IS_SCHEDULED" = "true" ]; then
+            python publish.py --scheduled
+          elif [ -n "$POST_ID" ]; then
+            python publish.py --id "$POST_ID"
           else
             python publish.py
           fi
