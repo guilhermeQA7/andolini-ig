@@ -8,7 +8,7 @@ Sistema de carrosséis automáticos para Instagram da Andolini Labs.
 - `generate.py`: gera os JPEGs em `output/post_XX/slide_XX.jpg`.
 - `publish.py`: publica o próximo post pendente via Composio.
 - `state/published.json`: controle do que já foi publicado.
-- `.github/workflows/publish.yml`: agenda de segunda a sexta, 08:17 de Brasília.
+- `.github/workflows/publish.yml`: agenda de segunda a sexta, 08:17 e 08:37 de Brasília, com trava diária contra publicação duplicada.
 
 ## Setup local
 
@@ -90,7 +90,7 @@ python publish.py --id 3 --dry-run
 
 - `PUBLISH_START_DATE`: data de inicio no formato `YYYY-MM-DD`
 
-5. O workflow publica automaticamente de segunda a sexta às 08:17, horário de Brasília. Para execução manual, acesse `Actions > Publish Instagram Carousel`.
+5. O workflow tenta publicar de segunda a sexta às 08:17 e às 08:37, horário de Brasília. A segunda execução funciona como contingência e ignora o dia se já houver publicação. Execuções automáticas são serializadas para evitar concorrência. Para execução manual, acesse `Actions > Publish Instagram Carousel`.
 6. Para testar um post especifico, use o input `post_id`.
 
 Depois de publicar, o workflow atualiza `state/published.json` e faz commit automático.
