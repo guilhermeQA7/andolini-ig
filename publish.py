@@ -3,7 +3,8 @@ import json
 import os
 import sys
 import time
-from datetime import date
+from datetime import date, datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -122,6 +123,22 @@ def save_state(state):
     STATE_PATH.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def already_published_today(state):
+    local_tz = ZoneInfo("America/Sao_Paulo")
+    today = datetime.now(local_tz).date()
+    for item in state.get("published", []):
+        if not isinstance(item, dict) or not item.get("published_at"):
+            continue
+        timestamp = str(item["published_at"]).replace("Z", "+00:00")
+        try:
+            published_day = datetime.fromisoformat(timestamp).astimezone(local_tz).date()
+        except ValueError:
+            continue
+        if published_day == today:
+            return True
+    return False
+
+
 def next_post(data, state, requested_id=None):
     published = {int(item["id"] if isinstance(item, dict) else item) for item in state.get("published", [])}
     for post in data["posts"]:
@@ -209,6 +226,7 @@ def publish(post, data, dry_run=False):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--id", type=int)
+    parser.add_argument("--scheduled", action="store_true", help="Aplica limite de uma publicação automática por dia")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--inspect", action="store_true")
     parser.add_argument("--whoami", action="store_true")
@@ -229,6 +247,9 @@ def main():
 
     data = load_data()
     state = load_state()
+    if args.scheduled and already_published_today(state):
+        print("Ja houve uma publicacao automatica hoje em America/Sao_Paulo; esta tentativa sera ignorada.")
+        return
     post = next_post(data, state, args.id)
     if not post:
         print("Nenhum post pendente.")
