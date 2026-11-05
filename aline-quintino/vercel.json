@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/produto/:slug",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/colecao/:slug",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/presentes/:slug",
+      "destination": "/index.html"
+    }
+  ]
+}
